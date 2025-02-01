@@ -6,10 +6,6 @@ setup(
     packages=find_packages(),
     py_modules=['my_functions'],    # Indicamos el módulo que queremos incluir
     install_requires=[
-        'numpy',
-        'pandas',
-        "matplotlib",
-        "statsmodels",
         "prophet"
     ],
     description="Un paquete de ejemplo con dos funciones: una que multiplica y otra que suma.",
