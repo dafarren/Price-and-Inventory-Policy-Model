@@ -1,4 +1,3 @@
-%%writefile my_functions.py
 def mi_funcion(x):
     """Función que multiplica el valor x por 2."""
     return x * 2
