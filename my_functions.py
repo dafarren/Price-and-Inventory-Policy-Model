@@ -1,3 +1,8 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import statsmodels.api as sm
+
 def generar_datos_sinteticos(n_years=5, elasticity=-1.5, Q0=200, random_seed=42):
     """
     Genera datos sintéticos de ventas y precios para un producto durante n_years años de datos semanales.
