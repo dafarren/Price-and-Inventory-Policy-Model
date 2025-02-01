@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     py_modules=['my_functions'],    # Indicamos el módulo que queremos incluir
     install_requires=[
-        'mumpy',
+        'numpy',
         'pandas',
         "matplotlib",
         "statsmodels",
