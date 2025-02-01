@@ -1,15 +1,6 @@
 def generar_datos_sinteticos(n_years=5, elasticity=-1.5, Q0=200, random_seed=42):
     """
     Genera datos sintéticos de ventas y precios para un producto durante n_years años de datos semanales.
-
-    Parámetros:
-        n_years (int): Número de años a generar (cada año tiene 52 semanas). Por defecto 5.
-        elasticity (float): Elasticidad precio de la demanda. Por defecto -1.5.
-        Q0 (float): Demanda base en el precio medio. Por defecto 200.
-        random_seed (int): Semilla para la generación de números aleatorios. Por defecto 42.
-
-    Retorna:
-        pd.DataFrame: DataFrame con las columnas 'week' (fechas semanales), 'sales' (ventas) y 'price' (precios).
     """
     # Configurar semilla para reproducibilidad
     np.random.seed(random_seed)
@@ -39,4 +30,5 @@ def generar_datos_sinteticos(n_years=5, elasticity=-1.5, Q0=200, random_seed=42)
         'sales': sales,
         'price': prices
     })
-    return df
+
+    return df  # <-- Esta línea debe estar indentada dentro de la función
