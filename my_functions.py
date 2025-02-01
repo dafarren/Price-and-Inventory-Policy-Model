@@ -39,5 +39,4 @@ def generar_datos_sinteticos(n_years=5, elasticity=-1.5, Q0=200, random_seed=42)
         'sales': sales,
         'price': prices
     })
-
-return df
+    return df
