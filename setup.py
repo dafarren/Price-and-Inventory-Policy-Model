@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="MiPaqueteEjemplo",       # Nombre del paquete
+    name="MiPaqueteEjemplo",
     version="0.1",
-    packages=find_packages(),      # Busca automáticamente todos los submódulos
-    py_modules=['my_functions'],   # Como nuestro archivo no está dentro de una carpeta, lo especificamos aquí
+    packages=find_packages(),
+    py_modules=['my_functions'],  # Especificamos el archivo que contiene las funciones
     install_requires=[
-        # Lista de dependencias, por ejemplo: 'numpy', 'pandas', ...
+        # Aquí puedes agregar dependencias si las hubiera, por ejemplo: 'numpy',
     ],
-    description="Un paquete de ejemplo con una función simple.",
+    description="Un paquete de ejemplo con dos funciones: una que multiplica y otra que suma.",
     author="Tu Nombre",
     author_email="tu_email@example.com",
 )
