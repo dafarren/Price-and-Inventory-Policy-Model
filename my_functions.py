@@ -110,8 +110,3 @@ def generar_series_sintetica(n_weeks=104,
         plt.show()
     
     return df
-
-# Ejemplo de uso:
-df_series = generar_series_sintetica(n_weeks=104, seed=123)
-print("Primeras filas de la serie generada:")
-print(df_series.head())
